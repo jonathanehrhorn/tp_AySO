@@ -1,0 +1,324 @@
+exit
+exit
+cd ..
+cd ..
+sudo apt install vscode
+pwd
+cd home
+cd jonathan
+cd Descargas
+ls
+sudo apt install ./code_1.92.2-1723660989_amd64.deb
+ls
+cd ..
+whoami
+cd /
+cd /var
+ls
+cd log
+dir
+car boot.log
+cat boot.log
+head boot.log
+tall boot.log
+tail boot.log
+exit
+sudo system poweroff
+cd ..
+cd ..
+cd / var
+cd home
+cd jonathan
+cd /var
+cd /log
+cd /var/log
+sudo systemctl poweroff
+ps -ef
+clear
+cd /var/log
+ls -l
+cp /home/jonathan/ boot.log
+cp --help
+cp boot.log /home/jonathan/Documentos
+cd /home/jonathan/Documentos
+cat boot.log
+mkdir Prueba
+ls
+cp boot.log Prueba
+cd Prueba
+ls
+rm boot.log
+ls
+man cp
+ls
+cd ..
+cat boot.log
+grep
+grep 'service' boot.log
+grep 'cups' boot.log
+grep 'c...p' boot.log
+grep 'c..s' boot.log
+[200~~
+clear
+ls -l
+chown jonathan boot.log
+ls -l
+chown jonathan Prueba
+ls -l
+ls -l
+chmode
+chmod rw-rw-rw- boot.log
+man chmod
+ls -l
+chmod u+x boot.log
+ls -l
+chmod o+r boot.log
+ls -l
+chmod o-r boot.log
+ls -l
+chmod a+rwx boot.log
+ls -l
+chmod 644 boot.log
+ls -l
+chmod 777 boot.log
+ls -l
+clear
+exit
+sudo
+sudo useradd yo
+ls
+cd ..
+ls
+sudo groupadd prueba
+sudo usermod -aG prueba yo
+ls
+man usermod
+sudo passwd yo
+ls
+id yo
+cd ..
+ls
+cd home
+mkdir yo
+ls
+chown yo yo
+ls -l
+chgrp prueba yo
+ls -l
+exit
+git --version
+exit
+sudo apt install git
+pwd
+mkdir repogit
+cd repogit
+git clone https://github.com/jonathanehrhorn/tp_AySO.git
+cd t
+cd tp_AySO/
+ls
+clear
+whoami
+echo "usuario=$(whoami)" > usuario.txt
+cat usuario.txt
+ls -l
+git add .
+git commit -m "ADD: archivo"
+git config --global --edit
+git config --global user.email "j.ehrhorn14@gmail.com"
+git config --global user.name "jonathanehrhorn"
+git commit -m "ADD: archivo"
+git push
+clear
+git push
+git status
+clear
+cat /etc/os-release
+echo "SO:$(cat /etc/os-release)" > sistemaoperativo.txt
+cat sistemaoperativo.txt
+python
+git --version
+perl
+perl --version
+clear
+cat /proc/cpuinfo
+cat /proc/meminfo
+cat /proc/cpuinfo
+cd /proc
+ls -l
+cd ..
+exit
+exit
+cd repogit
+ls -l
+ls
+cd tp_AySO
+cat usuario.txt
+git status
+ls
+cd ..
+cd ..
+man echo
+cat /proc/cpuinfo
+s
+ls
+cd repogit
+ls
+echo "usuario=$(whoami)" > usuario.txt
+ls
+cat usuario.txt
+grep "model name" /proc/cpuinfo | head >> usuario.txt
+cat usuario.txt
+ls
+cd tp_AySO
+ls
+cat sistemaoperativo.txt
+cat usuario.txt
+grep "model name" /proc/cpuinfo | head >> usuario.txt
+cat usuario.txt
+git status
+git add "usuario.txt"
+git status
+git commit -m "feat: Añadiendo información de CPU"
+git push
+git push
+git push
+git status
+clear
+cd ..
+cat /etc/passwd
+ls
+cat usuario.txt
+echo "usuario=$(whoami)" > lista_ordenada.txt
+ls
+lista_ordenada.txt
+cat lista_ordenada.txt
+exit
+ls
+cd repogit
+ls
+man
+man sort via a key
+cat /etc/passwd
+clear
+ls
+cat lista_ordenada.txt
+echo "" > lista_ordenada.txt
+cat lista_ordenada.txt
+grep -v "/nologin" /etc/passwd | head -n 10 | sort -t ':' -k 7 > lista_ordenada.txt
+ls
+cat lista_ordenada.txt
+cat /etc/passwd
+clear
+ls
+cat lista_ordenada.txt
+cat /etc/passwd
+clear
+ls
+cd tp_AySO
+ls
+grep -v "/nologin" /etc/passwd | head -n 10 | sort -t ':' -k 7 > lista_ordenada.txt
+ls
+cat lista_ordenada.txt
+git status
+git add "lista_ordenada.txt"
+git status
+git commit -m "ADD: Listado de usuarios ordenada"
+git push
+clear
+cd ..
+tcpdump --version
+tcpdump -v
+cd ..
+exit
+cd repogit
+cd tp_AySO
+cd ..
+tcpdump
+man -k dump
+ls
+echo "tcpdump" > comando_dump_net.txt
+ls
+cat comando_dump_net.txt
+echo "man -k dump" >> comando_dump_net.txt
+cat comando_dump_net.txt
+cd tp_AySO
+echo "tcpdump" > comando_dump_net.txt
+echo "man -k dump" >> comando_dump_net.txt
+ls
+comando_dump_net.txt
+cat comando_dump_net.txt
+git status
+clear
+git status
+git add "comando_dump_net.txt"
+git status
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+git push
+ls
+clear
+systemctl poweroff
+cd repogit
+cd tp_AySO
+ls
+cat README.md
+cat lista_ordenada.txt
+clear
+cd ..
+ls
+cat << EOF >> prueba_heredoc.txt
+Este
+es
+un
+archivo
+de
+prueba
+EOF
+
+ls
+cat prueba_heredoc.txt
+cd tp_AySO
+ls
+cat << EOF >> README.md
+Alumno: Jonathan
+División: 211
+Turno: Tarde
+EOF
+
+ls
+cat README.md
+git status
+git add "README.md"
+git status
+git commit -m "ADD: Información sobre alumno"
+git push
+ls
+cd ..
+ls
+cat prueba_heredoc.txt
+> prueba.heredoc.txt
+cat prueba_heredoc.txt
+truncate -s 0 prueba_heredoc.txt
+cat prueba_heredoc.txt
+cd tp_AySO
+git revert "ADD: Información sobre alumno"
+git log
+ls
+cat README.md
+> README.md
+cat README.md
+cat << EOF >> README.md
+tp_AySO
+Alumno: Jonathan Ehrhorn
+División: 211
+Turno: Tarde
+EOF
+
+cat README.ms
+cat README.md
+git status
+git add "README.md"
+git commit -m "ADD: Información sobre alumno agregada"
+git push
+git status
+ls
+history -a
